@@ -4,7 +4,7 @@ import Section from "../components/Section";
 function Home() {
     return (
         <>
-            <div style={{ textAlign: 'center', marginTop: '2rem' }} >
+            <div className="carousel"  >
                 <CarouselDiv />
             </div >
             <Section />

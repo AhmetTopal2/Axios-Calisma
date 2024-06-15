@@ -17,7 +17,7 @@ function Header({ basket }) {
             </div>
             <div className="search-area">
                 <div>
-                    <Input className="search-input" />
+                    <Input className="search-input" placeholder="Ara..." />
                 </div>
                 <div>
                     <Button

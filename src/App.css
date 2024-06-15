@@ -50,7 +50,7 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-evenly;
-  
+
 }
 
 .basket-item-image {
@@ -73,4 +73,8 @@
 
 .basket h2 {
   padding: 50px;
+}
+
+.carousel {
+  text-align: center;
 }
