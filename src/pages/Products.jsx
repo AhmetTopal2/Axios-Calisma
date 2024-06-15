@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ProductList from "../components/ProductsList";
 
-function Products({ basket, setBasket }) {
-  const [products, setProduct] = useState([])
+function Products({ basket, setBasket, products, setProduct }) {
+  
 
   useEffect(() => {
     const fetchFunction = async () => {

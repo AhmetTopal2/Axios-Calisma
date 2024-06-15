@@ -9,16 +9,16 @@ import { useState } from 'react';
 
 function App() {
   const [basket, setBasket] = useState([]);
-
+  const [products, setProduct] = useState([])
   return (
     <>
-      <Header basket={basket} />
+      <Header basket={basket} products={products} />
       <Switch>
         <Route path='/' exact>
           <Home />
         </Route>
         <Route path='/products'>
-          <Products basket={basket} setBasket={setBasket} />
+          <Products basket={basket} setBasket={setBasket} products={products} setProduct={setProduct} />
         </Route>
         <Route path='/basket'>
           <Basket items={basket} setBasket={setBasket} />

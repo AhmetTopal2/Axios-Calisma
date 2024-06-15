@@ -1,8 +1,12 @@
 import { Link, NavLink } from "react-router-dom/cjs/react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Input, Button } from 'reactstrap'
-function Header({ basket }) {
+function Header({ basket, products }) {
     const basketLength = basket.length
+
+
+
+
     return (
         <div className="header">
             <div className="logo">
