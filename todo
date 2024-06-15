@@ -1,0 +1,6 @@
+Nav bar guncellenip duzeltilecek
+home sayfasi duzenlenecek home sayfasinda kategoriler gosterilecek ve her kategoriye gerekli urunler eklenicek 
+urunler axios ile cekilip yerlesecekleri componentin css dosyasi ayarlanacak
+her kategori dogru urunleri listeleyecek sekilde virtual dom manipulasyonu yapilacak
+ https://fakestoreapi.com/products/categories api bu
+ 
